@@ -1,12 +1,12 @@
 function Article ({post}) {
     const {title,date,minutes,preview} = post;
 
-    const emoji = minutes < 30 ? "☕️".repeat(Math.ceil(minutes/5)) : "🍱".repeat(Math.ceil(minutes/10))
+    const emojis = minutes < 30 ? "☕️".repeat(Math.ceil(minutes/5)) : "🍱".repeat(Math.ceil(minutes/10))
 
     return (
         <article>
             <h3>{title}</h3>
-            <small>{date} - {emoji}
+            <small>{date} - {emojis}
             {minutes} minute read</small>
             <p>{preview}</p>
         </article>
