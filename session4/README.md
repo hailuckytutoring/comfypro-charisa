@@ -1,5 +1,7 @@
-# data flow React
-<img src="./dataflowreact.jpg"></img>
+# Flexbox and the Box Model React
+
+<img src="./axisflexbox.PNG"></img>
+<img src="./boxmodel.PNG"></img>
 
 # Getting Started with Create React App
 
