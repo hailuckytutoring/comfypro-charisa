@@ -1,0 +1,34 @@
+#root {
+  background-color: rgb(209, 221, 221);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#root > div {
+  background-color: rgb(59, 57, 61);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the center of the main axis */
+  /* justify-content: center; Aligns items to the center of the cross-axis*/
+}
+
+.item {
+  font-size: 1.2rem;
+  width: 400px;
+  background-color: royalblue;
+}
+
+.btn {
+  width: 250px;
+}
+
+.avgPrice {
+  background-color: white;
+  border: 15px red solid;
+  color: black;
+  padding: 10px;
+  margin: 50px;
+}
