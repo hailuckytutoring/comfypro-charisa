@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import React, { useState } from "react";
 import "./App.css";
 import Button from "./components/Button";
@@ -41,7 +40,6 @@ const dataList = [
 
 function App({ name, age }) {
   const [ready, setReady] = useState(true);
-  const [state2, setState2] = useState(7);
 
   function changeReadyState() {
     setReady(!ready);
